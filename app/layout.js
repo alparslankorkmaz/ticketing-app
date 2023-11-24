@@ -13,8 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav />
-        {children}
+        <div className="flex h-screen max-h-screen flex-col">
+          <Nav />
+          <div className="bg-page text-default-text flex-grow overflow-y-auto">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
