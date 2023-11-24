@@ -19,9 +19,6 @@ const PriorityDisplay = () => {
         <div className="small-icon text-red-400">
           <PiFireSimpleFill />
         </div>
-        <div className="small-icon text-red-400">
-          <PiFireSimpleFill />
-        </div>
       </div>
     </>
   );

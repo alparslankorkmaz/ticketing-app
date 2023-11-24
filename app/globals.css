@@ -26,6 +26,19 @@
   p {
     @apply text-default-text text-sm;
   }
+
+  form {
+    @apply rounded-xl p-4;
+  }
+  label {
+    @apply mt-4;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply bg-card m-1 rounded p-1;
+  }
 }
 
 @layer components {

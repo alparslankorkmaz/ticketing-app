@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         nav: "#735d78",
         primary: "#735d78",
-        page: "#f7d1cd",
+        page: "#372549",
         card: "#b392ac",
         "card-hover": "#d1b3c4",
         "default-text": "#fdfffc",
