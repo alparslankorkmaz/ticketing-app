@@ -8,14 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        nav: "#f4a261",
-        page: "#fefae0",
-        card: "#dda15e",
-        "card-hover": "#faedcd",
-        "default-text": "#354f52",
-        "hover-text": "#cad2c5",
-        "green-accent": "#606c38",
-        "green-accent-hover": "#283618",
+        nav: "#735d78",
+        primary: "#735d78",
+        page: "#f7d1cd",
+        card: "#b392ac",
+        "card-hover": "#d1b3c4",
+        "default-text": "#fdfffc",
+        "hover-text": "#d9d9d9",
+        "green-accent": "#619b8a",
+        "green-accent-hover": "#a1c181",
       },
     },
   },
