@@ -24,7 +24,7 @@
   }
 
   p {
-    @apply text-default-text text-sm;
+    @apply text-sm text-default-text;
   }
 
   form {
@@ -37,18 +37,18 @@
   input,
   select,
   textarea {
-    @apply bg-card m-1 rounded p-1;
+    @apply m-1 rounded bg-card p-1;
   }
 }
 
 @layer components {
   .icon {
-    @apply text-default-text text-2xl md:text-5xl;
+    @apply text-2xl text-default-text md:text-5xl;
   }
   .small-icon {
-    @apply text-default-text text-xl md:text-3xl;
+    @apply text-xl text-default-text md:text-3xl;
   }
   .btn {
-    @apply bg-green-accent hover:bg-green-accent-hover text-nav block w-full cursor-pointer rounded-md px-4 py-2 text-center font-bold uppercase tracking-wider transition-colors hover:no-underline;
+    @apply block w-full cursor-pointer rounded-md bg-green-accent px-4 py-2 text-center font-bold uppercase tracking-wider text-white transition-colors hover:bg-green-accent-hover hover:no-underline;
   }
 }
